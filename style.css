@@ -9,7 +9,7 @@
 body {
   font-family: "Poppins", sans-serif;
 
-  background: linear-gradient(-45deg, #000000, #ff9204, #304952, #0b1046);
+  background: linear-gradient(-45deg, #000000, #0964cc, #d33809, #000000);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
   height: 100vh;
@@ -79,8 +79,6 @@ header {
   font-size: 2rem;
 }
 
-/* ////........Home Content........//// */
-
 .home-content .name {
   position: absolute;
   top: 47%;
@@ -117,7 +115,7 @@ header {
   padding: 1rem;
 }
 
-/* ////........About Me........//// */
+/* about me */
 
 .about-me {
   background-color: #07374a;
