@@ -317,19 +317,19 @@ header {
 /* ////.....Portfolio......///// */
 
 .portfolio {
-  background: #0d1413;
+  background: #000000;
   padding: 6rem 0;
 }
 
 .proj-heading h1{
   text-align: center;
-  color: #07374a;
+  color: #25b79f;
   font-size: 2.3rem;
   font-weight: 700;
   margin: 3rem 0;
   
 }
-
+/* 
 .proj-1{
   display: flex;
   justify-content: center;
@@ -396,7 +396,7 @@ header {
 .proj-1 .proj1-details button:hover a,
 .proj-1 .proj1-details button:hover .fas {
   color: #f0f0e6;
-}
+} */
 
 /* ////.....proj2.....//// */
 
@@ -422,7 +422,7 @@ header {
 
 .proj-2 .proj2-details i{
   font-size: 1.5rem;
-  color: #07374a;
+  color: #25b79f;
 }
 
 .proj-2 .proj2-details h2{
