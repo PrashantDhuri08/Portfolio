@@ -9,23 +9,23 @@
 body {
   font-family: "Poppins", sans-serif;
 
-  background: linear-gradient(-45deg, #000000, #0964cc, #d33809, #000000);
-  background-size: 400% 400%;
-  animation: gradient 10s ease infinite;
+  background: linear-gradient(-170deg,  rgb(75, 34, 34), rgb(0, 0, 0));
+  /* background-size: 400% 400%; */
+  /* animation: gradient 10s ease infinite; */
   height: 100vh;
 }
 
-@keyframes gradient {
+/* @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
 	}
 	50% {
-		background-position: 100% 50%;
+		background-position: 10% 50%;
 	}
 	100% {
 		background-position: 0% 50%;
 	}
-}
+} */
 
 header {
   background-color: transparent;
@@ -43,6 +43,7 @@ header {
 .navbar {
   position: fixed;
   width: 100%;
+  /* backdrop-filter: blur(10px); */
   z-index: 500;
 }
 
@@ -60,6 +61,7 @@ header {
 .menu-items li {
   list-style: none;
   padding: 1rem;
+  backdrop-filter: blur(10px);
 }
 
 .menu-items a {
@@ -69,8 +71,10 @@ header {
   padding: 0.3rem;
 }
 
+
 .menu-items a:hover {
-  border-bottom: 2px solid #f0f0e6;
+  border-bottom: 2px solid #ff0000;
+  animation: width 2s ease-in;
 }
 
 .navbar .logo {
@@ -84,7 +88,7 @@ header {
   top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #07374a;
+  color: #5dd1ff;
   width: 100%;
   text-align: center;
 }
@@ -118,12 +122,12 @@ header {
 /* about me */
 
 .about-me {
-  background-color: #07374a;
+  background-color: #000000;
   padding: 6rem 0;
 }
 
 .about-me .about-heading {
-  color: #25b79f;
+  color: #a06c58;
   font-size: 2rem;
   font-weight: 600;
   text-align: center;
@@ -131,7 +135,8 @@ header {
 
 .about-content img {
   height: 200px;
-  width: 150px;
+  background-color : rgb(75, 74, 74);
+  width: 200px;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -188,7 +193,7 @@ header {
   position: relative;
   height: 10px;
   width: 550px;
-  background: #f0f0f0;
+  background: #3b3a3a;
   border-radius: 10px;
   transform: scaleX(0);
   transform-origin: left;
@@ -197,7 +202,7 @@ header {
 
 .bar .progress-line span {
   position: absolute;
-  background: #25b79f;
+  background: #ff3c00;
   height: 100%;
   border-radius: 10px;
   transform: scaleX(0);
@@ -237,7 +242,7 @@ header {
   border: 7px solid transparent;
   border-bottom-width: 0px;
   border-right-width: 0px;
-  border-top-style: #f0f0f0;
+  border-top-style: #8d8d8d;
   border-top-color: #f0f0f0;
 }
 
@@ -295,7 +300,7 @@ header {
 .work-arrow a {
   font-size: 1rem;
   text-decoration: none;
-  color: #25b79f;
+  color: #ff4800;
 }
 
 .work-arrow-2 {
@@ -312,7 +317,7 @@ header {
 /* ////.....Portfolio......///// */
 
 .portfolio {
-  background: #25b79f;
+  background: #0d1413;
   padding: 6rem 0;
 }
 
@@ -488,7 +493,7 @@ header {
 /* ////......Contact......///// */
 
 .contact {
-  background: #07374a;
+  background: #000000;
   position: relative;
   height: 92vh;
 }
