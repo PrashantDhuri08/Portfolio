@@ -109,13 +109,13 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
-  border: 3px solid #07374a;
+  border: 3px solid #ffffff;
   border-radius: 50%;
 }
 
 .angle-down-icon a {
   text-decoration: none;
-  color: #07374a;
+  color: #ffffff;
   padding: 1rem;
 }
 
@@ -127,7 +127,7 @@ header {
 }
 
 .about-me .about-heading {
-  color: #a06c58;
+  color: #3556e9;
   font-size: 2rem;
   font-weight: 600;
   text-align: center;
@@ -135,6 +135,7 @@ header {
 
 .about-content img {
   height: 200px;
+  margin-top: 20px;
   background-color : rgb(75, 74, 74);
   width: 200px;
   object-fit: cover;
@@ -142,6 +143,7 @@ header {
 }
 
 .about-content p {
+  margin-top: 20px;
   font-size: 1.2rem;
   color: #f0f0e6;
   padding: 0 2.3rem;
@@ -151,7 +153,7 @@ header {
 .skills .skills-heading {
   font-size: 2rem;
   font-weight: 600;
-  color: #25b79f;
+  color: #2bdaae;
   text-align: center;
 }
 
@@ -310,7 +312,7 @@ header {
 .work-arrow-2 a {
   font-size: 1rem;
   text-decoration: none;
-  color: #25b79f;
+  color: #30a88a;
   display: none;
 }
 
@@ -323,7 +325,7 @@ header {
 
 .proj-heading h1{
   text-align: center;
-  color: #25b79f;
+  color: #976700;
   font-size: 2.3rem;
   font-weight: 700;
   margin: 3rem 0;
@@ -410,6 +412,7 @@ header {
 .proj-2 img{
   height: 330px;
   width: 380px;
+  
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 20px 10px -10px rgb(37 41 52 / 31%);
@@ -427,7 +430,7 @@ header {
 
 .proj-2 .proj2-details h2{
   font-size: 2rem;
-  color: #07374a;
+  color: #a3c8d6;
 }
 
 .proj-2 .proj2-details p{
@@ -440,9 +443,10 @@ header {
   background: #f0f0e6;
   padding: 0.5rem;
   margin-top: 0.5rem;
+  border-radius: 20px;
   width: 150px;
   border: none;
-  border-bottom: 2px solid #07374a;
+  border-bottom: 2px solid #78b6ce;
 }
 
 .proj-2 .proj2-details button a{
@@ -469,25 +473,8 @@ header {
   color: #f0f0e6;
 }
 
-.more-work {
-  text-align: center;
-  margin: 3rem 0 1rem 0;
-}
-
-.more-work p {
-  font-size: 1.6rem;
-  color: #07374a;
-  font-weight: 500;
-}
-
-.more-work a {
-  text-decoration: none;
-  color: #f0f0e6;
-  font-size: 1.3rem;
-}
-
-.more-work a:hover {
-  border-bottom: 2px solid #f0f0e6;
+.check{
+  color: #3556e9;
 }
 
 /* ////......Contact......///// */
@@ -509,7 +496,7 @@ header {
 .contact-content h2 {
   font-size: 2.5rem;
   font-weight: 400;
-  color: #25b79f;
+  color: #5e00f5;
   padding-bottom: 0.5rem;
 }
 
@@ -528,7 +515,7 @@ header {
 
 .contact-content a {
   text-decoration: none;
-  color: #25b79f;
+  color: #470bb8;
   padding: 0.5rem;
   transition: 0.3s ease-in-out;
 }
@@ -712,7 +699,7 @@ header {
   .work-arrow-2 a {
     font-size: 1.3rem;
     text-decoration: none;
-    color: #25b79f;
+    color: #4e7a73;
     display: block;
     text-align: center;
   }
