@@ -204,7 +204,7 @@ header {
 
 .bar .progress-line span {
   position: absolute;
-  background: #ff3c00;
+  background: #ff007b;
   height: 100%;
   border-radius: 10px;
   transform: scaleX(0);
@@ -219,16 +219,14 @@ header {
 }
 
 .progress-line .html {
-  width: 80%;
+  width: 96%;
 }
 .progress-line .css {
-  width: 70%;
+  width: 90%;
 }
-.progress-line .bootstrap {
-  width: 50%;
-}
+
 .progress-line .javascript {
-  width: 50%;
+  width: 76%;
 }
 
 .progress-line .py {
@@ -236,10 +234,10 @@ header {
 }
 
 .progress-line .java {
-  width: 40%;
+  width: 60%;
 }
 .progress-line .c {
-  width: 50%;
+  width: 69%;
 }
 
 .bar .progress-line span::before {
@@ -269,26 +267,24 @@ header {
 }
 
 .progress-line .html::after {
-  content: "80%";
+  content: "96%";
 }
 .progress-line .css::after {
-  content: "70%";
+  content: "90%";
 }
-.progress-line .bootstrap::after {
-  content: "50%";
-}
+
 .progress-line .javascript::after {
-  content: "50%";
+  content: "76%";
 }
 
 .progress-line .java::after {
-  content: "40%";
+  content: "60%";
 }
 .progress-line .py::after {
   content: "60%";
 }
 .progress-line .c::after {
-  content: "50%";
+  content: "69%";
 }
 
 .navbar.solid {
