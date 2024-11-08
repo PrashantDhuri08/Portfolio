@@ -230,6 +230,14 @@ header {
 .progress-line .javascript {
   width: 50%;
 }
+
+.progress-line .py {
+  width: 60%;
+}
+
+.progress-line .java {
+  width: 40%;
+}
 .progress-line .c {
   width: 50%;
 }
@@ -271,6 +279,13 @@ header {
 }
 .progress-line .javascript::after {
   content: "50%";
+}
+
+.progress-line .java::after {
+  content: "40%";
+}
+.progress-line .py::after {
+  content: "60%";
 }
 .progress-line .c::after {
   content: "50%";
