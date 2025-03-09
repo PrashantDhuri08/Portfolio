@@ -161,7 +161,7 @@
   <!-- <script src="app.js"></script>  m/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
    <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/service-worker.js')
+      navigator.serviceWorker.register('/sw.js')
         .then(() => console.log('Service Worker registered!'))
         .catch(err => console.error('Service Worker registration failed:', err));
     }
